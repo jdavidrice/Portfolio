@@ -4138,6 +4138,25 @@ input[type="button"].btn--primary:focus {
     color: white;
 }
 
+.modal-popup2__details {
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: var(--text-sm);
+    line-height: calc(var(--vspace-1_5) - 2px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: white;
+    border-radius: var(--border-radius);
+    padding: 0 1.4rem;
+    position: absolute;
+    top: var(--vspace-1_25);
+    right: 4rem;
+}
+
+.modal-popup2__details:hover, 
+.modal-popup2__details:focus {
+    background-color: var(--color-1);
+    border-color: var(--color-1);
+    color: white;
+}
 
 /* ===================================================================
  * # CTA
