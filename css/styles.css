@@ -4237,7 +4237,7 @@ input[type="button"].btn--primary:focus {
  * # testimonials
  *
  * ------------------------------------------------------------------- */
-.s-testimonials {
+/* .s-testimonials {
     padding-top: var(--vspace-5);
     padding-bottom: var(--vspace-3_5);
     color: rgba(255, 255, 255, 0.8);
@@ -4292,12 +4292,12 @@ input[type="button"].btn--primary:focus {
 .s-testimonials__content>.column:first-child {
     min-height: 0;
     min-width: 0;
-}
+} */
 
 /* ------------------------------------------------------------------- 
  * ## swiper style overrides
  * ------------------------------------------------------------------- */
-.s-testimonials .swiper-container {
+/* .s-testimonials .swiper-container {
     padding-bottom: var(--vspace-2_5);
 }
 
@@ -4315,12 +4315,12 @@ input[type="button"].btn--primary:focus {
 .s-testimonials .swiper-pagination-bullet-active {
     background: var(--color-1);
     opacity: 1;
-}
+} */
 
 /* ------------------------------------------------------------------- 
  * ## testimonial slider 
  * ------------------------------------------------------------------- */
-.testimonial-slider {
+/* .testimonial-slider {
     position: relative;
 }
 
@@ -4373,13 +4373,13 @@ input[type="button"].btn--primary:focus {
     font-weight: 300;
     line-height: var(--vspace-0_5);
     color: rgba(255, 255, 255, 0.6);
-}
+} */
 
 /* ------------------------------------------------------------------- 
  * responsive:
  * testimonials
  * ------------------------------------------------------------------- */
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     .testimonial-slider__slide {
         text-align: center;
     }
@@ -4403,7 +4403,7 @@ input[type="button"].btn--primary:focus {
         margin: 0;
         position: static;
     }
-}
+} */
 
 
 /* ===================================================================

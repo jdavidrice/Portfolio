@@ -30,7 +30,7 @@ Personal website/contact page/portfolio with modern, responsive design.
 
 ## Image of the App   
   
-![Portfolio](portfolio_pic.jpg)
+![Portfolio](images/portfolio_pic.jpg)
  
 
 ## Credits
