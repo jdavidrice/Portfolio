@@ -1,102 +1,72 @@
-<span align="center">   
-  
+<span align="center">
+
 # Portfolio 
-  
+
 [![GitHub license](https://img.shields.io/github/license/jdavidrice/portfolio)](https://github.com/jdavidrice/portfolio/blob/master/LICENSE)
 
 </span>  
+A collection of my professional coding projects, as well as some background and contact information about me.
+
+[Link to published website](https://jdavidrice.github.io/Portfolio/index.html)
 
 ## Table of Contents  
 *   [Description](#Description) 
 *   [Installation and Usage](#Installation-and-Usage)  
-*   [Images of the app](#Images-of-the-app)
+*   [Image of the app](#Image-of-the-app)
+*   [Credits](#Credits)
 *   [License](#License)  
 *   [Contact](#Contact) 
 
 
 ## Description  
 
-The "BigMood" web app gives users an easy way to track their mood throughout the day. After they are asked to create an account, users will log in to the app and create a new entry where they are prompted to report how they are feeling on a 1-5 scale (their mood), and what their current activity is. They will also be presented with a randomly chosen inspirational quote. On subsequent logins, in addition to recording their current mood and activity, users will be able to view all past entries, see a graph displaying their average mood, view their most used activity, and change the theme of the app. 
+Personal website/contact page/portfolio with modern, responsive design.
 
-The deployed app can be found online here: [BigMood App](https://https://bigmoodapp.herokuapp.com/)
-
-A Google Slides presentaion of the app's features and development story: [BigMood Presentation](https://docs.google.com/presentation/d/1Pm2SPSUAXzJR2UoU1Cz5aEdGtsD28mzy99wyRRpd-jw/edit?usp=sharing)
- 
-*   [Return to Top](#BigMood)  
-
-## Motivation   
-
-This app was designed to address the issue of wanting to become more aware of changes in mood throughout the day. It gives our users a simple, non-obtrusive way to track their mood and accompanying activities, to ultimately help them become more aware of their mental states. Noticing and identifying moods, and being able to look back and analyze mood changes, will hopefully allow our users to focus more on doing activities that are correlated with a positive mood, and to hopefully avoid those activities that are correlated with negative mood. 
-
-*   [Return to Top](#BigMood)  
-
-## User Story and Details
-
-User Story Acceptance Criteria
-```
-AS an end-user of the BigMood app, 
-I Want to sign up for the app with my email, username, and password,  
-SO that I can log in easily whenever I want to use the app.
-WHEN I log in, I want to click on a button to open a window and choose my current "mood level," on a scale of one to five, and my current activity, from a variety of choices. 
-WHEN I click on the "Latest Quote" link, I want to see a new inspirational quote.
-WHEN I click on the "Most Used Activity" link, I want to see the most common activity that I have logged with the app.
-WHEN I click on the "Average Mood" link, I want to see an image that displays my average mood,
-SO that I can connect my mood changes with my activities throughout the day. 
-WHEN I view the "All Entries" list, I want to see all of my mood/activity entries since signing up for the app. 
-WHEN I click on the side-menu icon, I want to view my username, and be presented with an option to choose the color theme of the app. 
-WHEN I want to log out of the app, I will see a "Logout" button under the color theme switcher.
-WHEN I want to see the developers who make the app, I will see links to their GitHub profiles under the Logout button. 
-```
-This Node.js app was created with the following npm packages: bcryptjs, dotenv, express, express-handlebars, express-session, mysql2, passport, passport-local, and sequelize. It also contains the development dependencies eslint, eslint-config-airbnb-base, eslint-plugin-import, and nodemon. The app utilizes Travis CI and is set up for automatic deployment on Heroku. 
-
-*   [Return to Top](#BigMood)  
 
 ## Installation and Usage  
 
-There is nothing to install to use this web app. New users must create a login that requires them to enter in an email address, username, and password. They will then be presented with a Dashboard where they can see relevant statistics about their mood/activity entries, and a button to create a new entry. After they create a new entry, the app will immediately save and display the entry in the "All Entries" list, and incorporate the new data into the Average Mood and Most Used Activity tabs. Users will also be able to read a new inspirational quote every time that they log in to the app, and will be able to alter the color theme of the app through a drop-down menu accessed through a side-menu icon. Users will also be able to Logout of the app or view the GitHub profiles of the developers by accessing the side-menu. 
- 
-
-*   [Return to Top](#BigMood)  
+ There is nothing to install to view the contents of this website. 
+  
 
 ## Image of the App   
   
-![BigMood](/public/assets/img/big_mood_app_signup.png)
+![Portfolio](portfolio_pic.jpg)
+ 
 
-*   [Return to Top](#BigMood)  
+## Credits
 
-## Team Roles  
-
-- Front-end work:  
-    - Emily Spoldi   
-    - Qi Feng
-
-- Back-end work:   
-    - Jeremy Rice   
-    - Delph-Sunny  
-
-*   [Return to Top](#BigMood)  
-
-## Future Development  
-
-We will continue to make adjustments to the UI layout and functionality until the app is perfect in every way. 
-
-A larger feature to incorporate would be allowing users to add in their own personal activities to the activity list. 
-
-*   [Return to Top](#BigMood)  
-
+Thank you to [StyleShout](https://www.styleshout.com/) for the template for this website. 
 
 ## License  
 
-Copyright (c) 2021 Emily Spoldi, Qi Feng, DT, Jeremy Rice. This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.  
+MIT License
 
-*   [Return to Top](#BigMood)  
+Copyright (c) 2021 Jeremy Rice
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+ 
 
 ## Contact  
 GitHub: 
-[Emily](https://github.com/espoldi), 
-[Jeremy](https://github.com/jdavidrice), 
-[Delphine](https://github.com/Delph-Sunny), 
-[Qi](https://github.com/qifeng86)  
+[Jeremy Rice](https://github.com/jdavidrice)
 
-*   [Return to Top](#BigMood)  
----
+Email:
+jdavidrice@gmail.com
+
+*   [Return to Top](#Portfolio)  
