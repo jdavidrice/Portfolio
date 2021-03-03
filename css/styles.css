@@ -4036,6 +4036,7 @@ input[type="button"].btn--primary:focus {
     margin: 0;
     -webkit-transition: all, .5s;
     transition: all, .5s;
+    height: 36.5rem;
 }
 
 /* on hover
