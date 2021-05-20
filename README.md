@@ -7,8 +7,6 @@
 </span>  
 A collection of my professional coding projects, as well as some background and contact information about me.
 
-[Link to published website](https://jdavidrice.github.io/Portfolio/index.html)
-
 ## Table of Contents  
 *   [Description](#Description) 
 *   [Installation and Usage](#Installation-and-Usage)  

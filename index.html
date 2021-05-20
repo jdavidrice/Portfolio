@@ -25,15 +25,15 @@
 
   <!-- favicons
     ================================================== -->
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/apple-icon-180x180.png">
   <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
@@ -159,13 +159,13 @@
 
           </div>
           <div class="column w-1000-stack">
-            <a href="Jeremy-Rice.pdf" target="_blank" rel="noopener noreferrer" class="btn btn--download">
+            <a href="https://docs.google.com/document/d/e/2PACX-1vQWSCQcBHQa67FSnjYtP125bmYE3FoMNh94nyk9WADhA_fg9O8HJXqMYG8zUGBMp0z6WBXwcPhDDBPN/pub" target="_blank" rel="noopener noreferrer" class="btn btn--download">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                 style="fill:rgba(0, 0, 0, 1);transform:0">
                 <path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z"></path>
                 <path d="M20,18H4v-7H2v7c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2v-7h-2V18z"></path>
               </svg>
-              Download CV
+              View Résumé
             </a>
           </div>
         </div>
@@ -215,6 +215,20 @@
         </a>
       </div> <!-- end folio-item -->
 
+      <div class="column folio-item">
+        <a href="#modal-05" class="folio-item__thumb">
+          <img src="images/portfolio/query_cuisine.jpg" srcset="images/portfolio/query_cuisine.jpg 1x, 
+                                       images/portfolio/query_cuisine@2x.jpg 2x" alt="Picture of Query Cuisine app">
+        </a>
+      </div> <!-- end folio-item -->
+      
+      <div class="column folio-item">
+        <a href="#modal-06" class="folio-item__thumb">
+          <img src="images/portfolio/weather_dash.jpg" srcset="images/portfolio/weather_dash.jpg 1x, 
+                                       images/portfolio/weather_dash@2x.jpg 2x" alt="Picture of Weather Dashboard app">
+        </a>
+      </div> <!-- end folio-item -->
+
     </div> <!-- end folio-list -->
 
 
@@ -223,6 +237,52 @@
     <div id="modal-01" hidden>
       <div class="modal-popup">
         <img src="images/portfolio/gallery/g-bigmood.jpg" alt="Picture of BigMood app." />
+    
+        <div class="modal-popup__desc">
+          <h5>BigMood</h5>
+          <p>The "BigMood" app gives users an easy way to track their mood throughout the day.</p>
+          <ul class="modal-popup__cat">
+            <li>Collaboration</li>
+            <li>Node.js</li>
+            <li>MySQL</li>
+            <li>Express</li>
+            <li>Handlebars</li>
+          </ul>
+        </div>
+    
+        <a href="https://bigmoodapp.herokuapp.com/" target="_blank" rel="noopener noreferrer"
+          class="modal-popup__details">Deployed App</a>
+        <a href="https://github.com/jdavidrice/BigMood" target="_blank" rel="noopener noreferrer"
+          class="modal-popup2__details">GitHub Repo</a>
+      </div>
+    </div> <!-- end modal -->
+
+        <div id="modal-02" hidden>
+      <div class="modal-popup">
+        <img src="images/portfolio/gallery/bigmood.png" alt="Picture of BigMood app." />
+    
+        <div class="modal-popup__desc">
+          <h5>BigMood</h5>
+          <p>The "BigMood" app gives users an easy way to track their mood throughout the day.</p>
+          <ul class="modal-popup__cat">
+            <li>Collaboration</li>
+            <li>Node.js</li>
+            <li>MySQL</li>
+            <li>Express</li>
+            <li>Handlebars</li>
+          </ul>
+        </div>
+    
+        <a href="https://bigmoodapp.herokuapp.com/" target="_blank" rel="noopener noreferrer"
+          class="modal-popup__details">Deployed App</a>
+        <a href="https://github.com/jdavidrice/BigMood" target="_blank" rel="noopener noreferrer"
+          class="modal-popup2__details">GitHub Repo</a>
+      </div>
+    </div> <!-- end modal -->
+
+        <div id="modal-03" hidden>
+      <div class="modal-popup">
+        <img src="images/portfolio/gallery/bigmood.png" alt="Picture of BigMood app." />
 
         <div class="modal-popup__desc">
           <h5>BigMood</h5>
@@ -243,7 +303,7 @@
       </div>
     </div> <!-- end modal -->
 
-    <div id="modal-02" hidden>
+    <div id="modal-04" hidden>
       <div class="modal-popup">
         <img src="images/portfolio/gallery/g-burger_app.png" alt="Picture of Burger app" />
 
@@ -265,9 +325,9 @@
       </div>
     </div> <!-- end modal -->
 
-    <div id="modal-03" hidden>
+    <div id="modal-05" hidden>
       <div class="modal-popup">
-        <img src="images/portfolio/gallery/g-query_cuisine.jpg" alt="Picture of Query Cuisine app" />
+        <img src="images/portfolio/gallery/query_cuisine.png" alt="Picture of Query Cuisine app" />
 
         <div class="modal-popup__desc">
           <h5>Query-Cuisine</h5>
@@ -286,9 +346,9 @@
       </div>
     </div> <!-- end modal -->
 
-    <div id="modal-04" hidden>
+    <div id="modal-06" hidden>
       <div class="modal-popup">
-        <img src="images/portfolio/gallery/g-weather_dash.jpg" alt="Picture of Weather Dashboard app" />
+        <img src="images/portfolio/gallery/weather_dashboard.png" alt="Picture of Weather Dashboard app" />
 
         <div class="modal-popup__desc">
           <h5>Weather Dashboard</h5>
